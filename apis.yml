@@ -1,8 +1,24 @@
 aid: arch-network
 name: Arch Network
-description: 'Arch Network is a company surfaced as a portfolio company of multicoin-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Arch Network is Bitcoin-native financial infrastructure and a computation environment that lets
+  developers build DeFi and capital-markets applications — lending, yield, trading, and structured
+  products — with settlement kept local to Bitcoin. It executes programmable smart contracts
+  (written in Rust) over Bitcoin UTXOs using a specialized virtual machine and threshold-cryptography
+  (FROST/ROAST) validator security, and exposes a JSON-RPC API with first-party TypeScript and Rust
+  SDKs, a CLI, and an AI agent kit. Surfaced as a portfolio company of Multicoin Capital.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/158455584?v=4
 url: https://raw.githubusercontent.com/api-evangelist/arch-network/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Crypto Web3
+- Bitcoin
+- Blockchain
+- DeFi
+- Smart Contracts
+- JSON-RPC
+- Web3 SDK
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,34 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/arch-network-domain-security.yml
 - type: Website
   url: https://arch.network
+- type: DeveloperPortal
+  url: https://docs.arch.network/
+- type: Documentation
+  url: https://book.arch.network/docs
+- type: GettingStarted
+  url: https://book.arch.network/docs
+- type: Blog
+  url: https://www.blog.arch.network/
+- type: GitHubOrganization
+  url: https://github.com/arch-network
+- type: Support
+  url: https://discord.gg/archnetwork
+- type: ChangeLog
+  url: https://github.com/Arch-Network/arch-node/releases
+- type: Packages
+  url: packages/arch-network-packages.yml
+- type: SDKs
+  url: packages/arch-network-packages.yml
+- type: CLI
+  url: cli/arch-network-cli.yml
+- type: LLMsTxt
+  url: llms/arch-network-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

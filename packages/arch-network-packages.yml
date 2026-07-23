@@ -1,0 +1,48 @@
+generated: '2026-07-18'
+method: searched
+source: npm registry (@arch-network scope) + github.com/Arch-Network
+packages:
+  - language: javascript
+    registry: npm
+    name: "@arch-network/arch-sdk"
+    url: https://www.npmjs.com/package/@arch-network/arch-sdk
+    install: npm install @arch-network/arch-sdk
+    version: 0.0.27
+    repository: https://github.com/Arch-Network/arch-typescript-sdk
+    description: Arch SDK — TypeScript/JavaScript client for the Arch Network JSON-RPC API.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@arch-network/wallet-hub-sdk"
+    url: https://www.npmjs.com/package/@arch-network/wallet-hub-sdk
+    install: npm install @arch-network/wallet-hub-sdk
+    version: 0.1.1
+    repository: https://github.com/Arch-Network/arch-wallet-hub
+    description: TypeScript client for the Arch Wallet Hub API.
+    official: true
+  - language: javascript
+    registry: npm
+    name: arch-typescript-sdk
+    url: https://www.npmjs.com/package/arch-typescript-sdk
+    install: npm install arch-typescript-sdk
+    version: 0.0.69
+    repository: https://github.com/Arch-Network/arch-typescript-sdk
+    description: Basic TypeScript SDK for interacting with Arch Network (unscoped publish of the Arch-Network typescript SDK).
+    official: true
+  - language: rust
+    registry: github
+    name: arch-sdk
+    url: https://github.com/Arch-Network/arch-sdk
+    install: "add via Cargo git dependency (see repo)"
+    repository: https://github.com/Arch-Network/arch-sdk
+    description: Rust SDK for building Arch Network programs (Bitcoin-native smart contracts).
+    official: true
+  - language: rust
+    registry: github
+    name: arch-cli
+    url: https://github.com/Arch-Network/arch-cli
+    install: "git clone https://github.com/Arch-Network/arch-cli && cargo install --path ."
+    repository: https://github.com/Arch-Network/arch-cli
+    description: Arch Network CLI. ARCHIVED (read-only, educational use only as of 2025-07-07); latest CLI now ships with arch-node releases.
+    official: true
+    status: archived

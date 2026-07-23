@@ -1,0 +1,37 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/Arch-Network/arch-cli
+name: arch-cli
+status: archived
+status_note: >-
+  The arch-cli repository is archived (read-only as of 2025-07-07) and marked "for educational
+  purposes only." The current/maintained CLI binary now ships with arch-node releases.
+replacement: https://github.com/Arch-Network/arch-node/releases
+language: rust
+install:
+  - method: source
+    command: "git clone https://github.com/Arch-Network/arch-cli && cd arch-cli && cargo install --path ."
+docs: https://docs.arch.network/docs/tools-apis/arch-cli-reference
+commands:
+  - name: init
+    summary: Set up a new Arch Network project.
+  - name: project
+    summary: Create new projects.
+  - name: validator
+    summary: Manage local validator nodes.
+  - name: server
+    summary: Control a self-contained local Arch Network environment.
+  - name: deploy
+    summary: Deploy compiled programs.
+  - name: dkg
+    summary: Initiate Distributed Key Generation (DKG) processes.
+  - name: bitcoin
+    summary: Send coins for testing.
+  - name: account
+    summary: Create and manage accounts.
+  - name: indexer
+    summary: Manage the indexer service.
+  - name: demo
+    summary: Manage demonstration applications.
+  - name: config
+    summary: View, edit, and reset CLI configuration.
